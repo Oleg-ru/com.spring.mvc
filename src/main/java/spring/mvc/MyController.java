@@ -26,5 +26,6 @@ public class MyController {
         empName = "Mr. " + empName + "!";
         model.addAttribute("nameAttribute", empName);
         return "show-emp-details-view";
+
     }
 }
